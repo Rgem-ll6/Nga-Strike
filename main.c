@@ -896,7 +896,9 @@ int main(void) {
     SetExitKey(KEY_NULL);
     DisableCursor();
     SetTargetFPS(144);
-
+    // sorry for harcoding these please change these when you clone this repo, i couldn't
+    //find a way to make the sound into the binary
+    //if you can modify these please do...
     Sound sfxShot         = LoadSound("/home/Rhema/Projects/UI/shot.mp3");
     Sound sfxShotAKR      = LoadSound("/home/Rhema/Projects/UI/shot.mp3");
     Sound sfxShotSniper   = LoadSound("/home/Rhema/Projects/UI/shot_sniper.mp3");
