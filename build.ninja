@@ -1,0 +1,6 @@
+cflags = -Wall -Wextra -g -O2 -march=native -lraylib -lm
+
+rule cc
+    command = cc $cflags $in -o $out
+
+build nigga_strike: cc main.c
